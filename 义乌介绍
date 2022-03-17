@@ -43,7 +43,7 @@
         enableMessage: true,//设置允许信息窗发送短息
         message: "戳下面的链接看具体信息~"
     }
-    var infoWindow = new BMap.InfoWindow("义乌——义新欧的出发点" + "https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin", opts);  // 创建信息窗口对象
+    var infoWindow = new BMap.InfoWindow("义乌——义新欧的出发点", opts);  // 创建信息窗口对象
     marker.addEventListener("click", function () {
         map.openInfoWindow(infoWindow, point); //开启信息窗口
     });
